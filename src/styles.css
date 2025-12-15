@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global theme setup */
+:root {
+  color-scheme: light;
+
+  --primary-beige: #f6ede4;
+  --secondary-beige: #dac2aa;
+  --tertiary-beige: #c5a483;
+  --primary-brown: #4a2e14;
+  --secondary-brown: #351f0a;
+  --tertiary-brown: #804a17;
+  --primary-water-green: #00637b;
+  --secondary-water-green: #004353;
+
+  --color: var(--secondary-water-green);
+  --background-color: var(--primary-beige);
+  --border-color: var(--secondary-brown);
+  --hover-color: var(--v-grad-water-green);
+  --btn-color: var(--v-grad-water-green);
+  --nav-bg-color: var(--secondary-brown);
+  --v-grad-beige: linear-gradient(170deg, var(--primary-beige) 0%, var(--secondary-beige) 100%);
+  --h-grad-beige: linear-gradient(90deg, var(--primary-beige) 0%, var(--secondary-beige) 100%);
+  --v-grad-brown: linear-gradient(170deg, var(--primary-brown) 0%, var(--secondary-brown) 100%);
+  --h-grad-brown: linear-gradient(90deg, var(--primary-brown) 0%, var(--secondary-brown) 100%);
+  --v-grad-water-green: linear-gradient(170deg, var(--primary-water-green) 0%, var(--secondary-water-green) 100%);
+  --h-grad-water-green: linear-gradient(90deg, var(--primary-water-green) 0%, var(--secondary-water-green) 100%);
+}
+
+:root.dark {
+  color-scheme: dark;
+
+  --primary-beige: #c5a483;
+  --secondary-beige: #dac2aa;
+  --tertiary-beige: #f6ede4;
+  --primary-brown: #351f0a;
+  --secondary-brown: #4a2e14;
+  --tertiary-brown: #804a17;
+  --primary-water-green: #00637b;
+  --secondary-water-green: #004353;
+
+  --color: var(--secondary-water-green);
+  --background-color: var(--primary-beige);
+  --border-color: var(--secondary-beige);
+  --hover-color: var(--v-grad-water-green);
+  --btn-color: var(--v-grad-water-green);
+  --nav-bg-color: var(--primary-beige);
+  --v-grad-beige: linear-gradient(170deg, var(--primary-beige) 0%, var(--secondary-beige) 100%);
+  --h-grad-beige: linear-gradient(90deg, var(--primary-beige) 0%, var(--secondary-beige) 100%);
+  --v-grad-brown: linear-gradient(170deg, var(--primary-brown) 0%, var(--secondary-brown) 100%);
+  --h-grad-brown: linear-gradient(90deg, var(--primary-brown) 0%, var(--secondary-brown) 100%);
+  --v-grad-water-green: linear-gradient(170deg, var(--primary-water-green) 0%, var(--secondary-water-green) 100%);
+  --h-grad-water-green: linear-gradient(90deg, var(--primary-water-green) 0%, var(--secondary-water-green) 100%);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: var(--primary-beige);
+  background-color: var(--background-color);
+}
+
+* {
+  font-family: 'Inter', 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Keeps links the same color as the text */
+nav *:link,
+nav *:visited,
+nav *:hover,
+nav *:active {
+  color: var(--primary-beige);
+  text-decoration-color: var(--primary-beige);
+}
+
+/* Gradient utility helpers for Tailwind interop */
+.bg-grad-brown {
+  background: var(--v-grad-brown);
+}
+
+.bg-grad-water-green {
+  background: var(--v-grad-water-green);
+}
+
+.hover\:bg-grad-brown:hover {
+  background: var(--v-grad-brown);
+}
+
+.hover\:bg-grad-water-green:hover {
+  background: var(--v-grad-water-green);
+}
+
+.border {
+  border-color: var(--border-color);
+}

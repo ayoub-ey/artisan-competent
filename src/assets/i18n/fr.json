@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "Accueil"
+  },
+  "auth": {
+    "register": "Inscription",
+    "login": "Connexion",
+    "roles": {
+      "individual": "Je suis un particulier",
+      "professional": "Je suis un professionnel",
+      "supplier": "Je suis un fournisseur"
+    }
+  },
+  "jobs": {
+    "title": "Métiers"
+  },
+  "not-found": {
+    "title": "Page introuvable",
+    "message": "Page non trouvée"
+  },
+  "toggle": {
+    "theme": "Basculer le thème",
+    "lang": "Basculer la langue"
+  }
+}

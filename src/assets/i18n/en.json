@@ -1,0 +1,192 @@
+{
+  "home": {
+    "title": "Home"
+  },
+  "common": {
+    "delete": "Delete"
+  },
+  "map": {
+    "title": "Map"
+  },
+  "messages": {
+    "title": "Messages"
+  },
+  "payments": {
+    "title": "Payments"
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "auth": {
+    "register": "Sign up",
+    "login": "Log in",
+    "logout": "Log out",
+    "forget_password": "Forget password ?",
+    "reset_password": "Reset password",
+    "roles": {
+      "individual": "I am an individual",
+      "professional": "I am a professional",
+      "supplier": "I am a supplier"
+    }
+  },
+  "jobs": {
+    "title": "Jobs",
+    "description": "Explore the trades and skills available on the platform."
+  },
+  "not-found": {
+    "title": "Page not found",
+    "message": "Page not found"
+  },
+  "toggle": {
+    "theme": "Toggle theme",
+    "lang": "Toggle language"
+  },
+  "register": {
+    "title": "Sign up as an individual",
+    "addPhoto": "Add a photo",
+    "addId": "Add an ID card",
+    "addRib": "Add bank account (RIB)",
+    "offerServices": "I want to offer my services",
+    "captcha": "I am not a robot",
+    "cgu": "I accept the Terms",
+    "submit": "Submit",
+    "gender": {
+      "select": "Select gender",
+      "female": "Female",
+      "male": "Male",
+      "other": "Other"
+    },
+    "fields": {
+      "lastName": "Last name",
+      "firstName": "First name",
+      "birthDate": "Birth date",
+      "email": "Email address",
+      "password": "Password",
+      "passwordConfirm": "Confirm password",
+      "phone": "Phone number",
+      "trades": "Trades",
+      "services": "Services offered",
+      "address": {
+        "number": "Street number",
+        "street": "Street name",
+        "complement": "Address complement",
+        "zip": "ZIP code",
+        "city": "City"
+      }
+    },
+    "options": {
+      "trades": {
+        "plumbing": "Plumbing",
+        "electricity": "Electricity",
+        "masonry": "Masonry",
+        "gardening": "Gardening",
+        "locksmith": "Locksmith"
+      },
+      "services": {
+        "installation": "Installation",
+        "repair": "Repair",
+        "maintenance": "Maintenance",
+        "consulting": "Consulting"
+      }
+    }
+  },
+  "supplier": {
+    "title": "Supplier sign up",
+    "addLogo": "Add a logo",
+    "addRib": "Add bank account (RIB)",
+    "submit": "Submit",
+    "fields": {
+      "lastName": "Last name",
+      "firstName": "First name",
+      "companyName": "Company name",
+      "openingHours": "Opening hours",
+      "siret": "SIRET number",
+      "services": "Services offered",
+      "phone": "Phone number",
+      "email": "Email address",
+      "password": "Password",
+      "passwordConfirm": "Confirm password",
+      "address": {
+        "number": "Street number",
+        "street": "Street name",
+        "complement": "Address complement",
+        "zip": "ZIP code",
+        "city": "City"
+      }
+    },
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "open": "Open",
+    "errors": {
+      "timeRequired": "Start and end time required when open",
+      "timeOrder": "Start time must be before end time"
+    }
+  },
+  "professional": {
+    "title": "Professional sign up",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "optional": "optional field",
+    "addPhoto": "Add photo",
+    "addIdFront": "Add ID card front",
+    "addIdBack": "Add ID card back",
+    "addInsuranceDoc": "Add insurance document",
+    "addDiplomaDoc": "Add diploma or proof",
+    "addLogo": "Add a logo",
+    "addRib": "Add bank account (RIB)",
+    "onCall": "On-call",
+    "errors": {
+      "emailRequired": "At least one email is required"
+    },
+    "manager": {
+      "company": "Company",
+      "sole": "Sole trader"
+    },
+    "fields": {
+      "lastName": "Last name",
+      "firstName": "First name",
+      "birthDate": "Birth date",
+      "managerStatus": "Manager status",
+      "managerPhone": "Manager phone number",
+      "personalEmail": "Manager personal email",
+      "professionalEmail": "Manager professional email",
+      "password": "Password",
+      "passwordConfirm": "Confirm password",
+      "address": {
+        "number": "Street number",
+        "street": "Street name",
+        "complement": "Address complement",
+        "zip": "ZIP code",
+        "city": "City"
+      },
+      "insuranceName": "Insurance name",
+      "insuranceNumber": "Insurance number",
+      "insuranceExpiry": "Expiration date",
+      "companyName": "Company name",
+      "workAddress": {
+        "number": "Street number",
+        "street": "Street name",
+        "complement": "Address complement",
+        "zip": "ZIP code",
+        "city": "City"
+      },
+      "siren": "SIREN number",
+      "trades": "Trades",
+      "yearsExperience": "Years of experience",
+      "openingHours": "Opening hours",
+      "description": "Seller pitch (max 500 chars)",
+      "services": "Services offered",
+      "trustName": "Trusted contact name",
+      "trustPhone": "Trusted contact phone",
+      "suppliers": "Supplier list"
+    }
+  }
+}
