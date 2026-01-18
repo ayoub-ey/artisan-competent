@@ -46,20 +46,12 @@
               "optimization": true,
               "sourceMap": false,
               "fileReplacements": [
-                {
-                  "replace": "src/environments/env.ts",
-                  "with": "src/environments/env.prod.ts"
-                }
               ]
             },
             "staging": {
               "optimization": true,
               "sourceMap": false,
               "fileReplacements": [
-                {
-                  "replace": "src/environments/env.ts",
-                  "with": "src/environments/env.pprod.ts"
-                }
               ]
             },
             "development": {
