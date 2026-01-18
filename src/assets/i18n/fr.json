@@ -12,7 +12,204 @@
     }
   },
   "jobs": {
-    "title": "Métiers"
+    "title": "Nos métiers",
+    "description": "Découvrez les métiers et compétences disponibles sur la plateforme.",
+    "list": {
+      "electrician": {
+        "name": "Électricien compétent",
+        "description": {
+          "p1": "Avec Artisan-Compétent, trouver un électricien compétent n'a jamais été aussi simple. En quelques secondes, vous décrivez votre problème en audio, vidéo ou photo, et notre solution vous met directement en relation avec des électriciens qualifiés près de chez vous.",
+          "p2": "Plus besoin de formulaires compliqués ou d'attendre un rappel : vous comparez les propositions reçues, choisissez l'artisan qui vous inspire confiance et bénéficiez d'une intervention rapide et sécurisée.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "locksmithMetaller": {
+        "name": "Serrurier & métallier compétent",
+        "description": {
+          "p1": "Avec Artisan-Competent.com, vous décrivez simplement votre problème : porte claquée, serrure forcée, clé perdue ou installation de nouvelle serrure. Votre demande est envoyée instantanément aux serruriers compétents proches de chez vous.",
+          "p2": "Vous recevez rapidement des propositions claires, avec des tarifs justes et sans mauvaise surprise. Grâce à notre système de mise en relation, vous gagnez du temps, vous comparez en toute transparence et vous choisissez le serrurier compétent qui correspond le mieux à vos besoins. Sécurité, rapidité et fiabilité : trouvez enfin un serrurier de confiance en quelques clics.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "plumberSanitary": {
+        "name": "Plombier sanitaire compétent",
+        "description": {
+          "p1": "Avec Artisan-Competent.com, votre demande est transmise immédiatement aux plombiers compétents proches de chez vous, qui vous répondent rapidement avec leurs propositions et devis.",
+          "p2": "Vous comparez en toute transparence, choisissez le professionnel le mieux adapté et profitez d'une intervention fiable au juste prix. Grâce à notre solution innovante, trouver un plombier compétent n'a jamais été aussi simple, rapide et sécurisé.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "drainUnblocker": {
+        "name": "Déboucheur de canalisations compétent",
+        "description": {
+          "p1": "Lorsqu'une canalisation est obstruée, il est essentiel de faire appel à un déboucheur compétent capable d'identifier rapidement la cause du problème et de proposer une solution adaptée.",
+          "p2": "Grâce à son savoir-faire et à des outils professionnels, un déboucheur compétent garantit un résultat efficace tout en préservant vos installations. Que ce soit pour un évier bouché, des toilettes obstruées ou une canalisation engorgée, vous bénéficiez d'une intervention fiable et durable.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "heatingTech": {
+        "name": "Chauffagiste compétent",
+        "description": {
+          "p1": "Faire appel à un chauffagiste compétent est essentiel pour garantir le bon fonctionnement et la durabilité de vos installations de chauffage.",
+          "p2": "Qu'il s'agisse de l'installation d'une chaudière, de l'entretien régulier ou d'un dépannage en urgence, un chauffagiste compétent vous assure une intervention rapide, efficace et conforme aux normes. Grâce à son expertise, vous bénéficiez non seulement d'un confort optimal, mais aussi d'économies d'énergie sur le long terme.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "hvacFridgeInstaller": {
+        "name": "Installateur / réparateur climatisation & frigoriste compétent (à revoir)",
+        "description": {
+          "p1": "L'installation et la maintenance des systèmes de climatisation ou de réfrigération exigent l'expertise d'un technicien froid compétent. Ce professionnel maîtrise les normes de sécurité et garantit des interventions précises, qu'il s'agisse d'une mise en service, d'un entretien préventif ou d'une réparation en urgence.",
+          "p2": "En choisissant un technicien froid compétent, vous assurez la performance et la durabilité de vos équipements, tout en bénéficiant d'un confort thermique optimal et d'économies d'énergie.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "carpenterGlazier": {
+        "name": "Menuisier & vitrier compétent (stores, fenêtres, portes...)",
+        "description": {
+          "p1": "La menuiserie et la vitrerie exigent précision, technicité et savoir-faire. Faire appel à un menuisier vitrier compétent, c'est bénéficier d'un accompagnement de qualité, que ce soit pour la pose de fenêtres, la réparation de vitrages cassés, la création de portes sur mesure ou l'aménagement intérieur.",
+          "p2": "Grâce à son expertise, un menuisier vitrier compétent assure des finitions impeccables, une isolation optimale et une durabilité dans le temps. Que vous soyez un particulier ou un professionnel, vous gagnez en sécurité, confort et esthétisme.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "painterInteriorFacade": {
+        "name": "Peintre d'intérieur & façadier compétent",
+        "description": {
+          "p1": "Faire appel à un peintre façadier compétent, c'est l'assurance de bénéficier d'un travail soigné et durable, aussi bien pour vos murs intérieurs que pour vos façades extérieures. Ce professionnel maîtrise les techniques adaptées à chaque support et utilise des matériaux de qualité pour garantir un rendu esthétique et une protection optimale de vos surfaces.",
+          "p2": "Que ce soit pour un ravalement, une rénovation ou une mise en valeur de votre habitat, un peintre façadier compétent vous garantit un résultat qui allie solidité, esthétique et respect des délais.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "drywallerJointer": {
+        "name": "Plaquiste & jointeur compétent (à revoir)",
+        "description": {
+          "p1": "Un plaquiste compétent est un professionnel qualifié qui se spécialise dans la pose de plafonds, de murs, de volets et d'autres éléments de construction.",
+          "p2": "Il utilise des outils et des techniques appropriées pour assurer la sécurité, l'efficacité et la qualité de la construction.",
+          "p3": "Un plaquiste peut également être un jointeur, qui se spécialise dans la jointure de murs, de volets et d'autres éléments de construction."
+        }
+      },
+      "floorCoverings": {
+        "name": "Revêtements de sols compétent (carrelage, parquet...) (à revoir)",
+        "description": {
+          "p1": "Un revêtement de sol est une couche de peinture ou de carrelage qui protège les sols contre les rayons UV, les brusques chocs et les agressions extérieures.",
+          "p2": "Il peut également être utilisé pour ajouter de la texture et de la couleur au sol, en particulier lors de travaux de construction ou de rénovation.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "masonMinorWorks": {
+        "name": "Maçon compétent (hors gros œuvre) (à revoir)",
+        "description": {
+          "p1": "Un maçon compétent est un professionnel qualifié qui se spécialise dans la construction et la modification de murs, de fenêtres, de portes, de volets et d'autres éléments de construction.",
+          "p2": "Il utilise des outils et des techniques appropriées pour assurer la sécurité, l'efficacité et la qualité de la construction.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "rooferZincCarpenter": {
+        "name": "Couvreur, zingueur & charpentier compétent (à revoir)",
+        "description": {
+          "p1": "Un couvreur compétent est un professionnel qualifié qui se spécialise dans la pose de plafonds, de murs, de volets et d'autres éléments de construction.",
+          "p2": "Il utilise des outils et des techniques appropriées pour assurer la sécurité, l'efficacité et la qualité de la construction.",
+          "p3": "Un couvreur peut également être un zingueur, qui se spécialise dans la pose de volets et d'autres éléments de construction."
+        }
+      },
+      "insulationInOut": {
+        "name": "Isolation intérieure & extérieure compétent (à revoir)",
+        "description": {
+          "p1": "L'isolation intérieure et extérieure sont essentielles pour protéger les bâtiments contre les agressions extérieures et les émissions de gaz à effet de serre.",
+          "p2": "Un professionnel qualifié se spécialise dans l'isolation de murs, de volets, de plafonds et de fenêtres, en utilisant des matériaux de qualité et des techniques appropriées.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      },
+      "pestControl": {
+        "name": "Traitement anti-nuisibles compétent (rongeurs, punaises...)",
+        "description": {
+          "p1": "Faire appel à un technicien en traitement des nuisibles compétent, c'est la garantie d'une intervention rapide, efficace et durable. Rongeurs, punaises de lit, cafards, fourmis ou guêpes : chaque infestation demande une méthode adaptée et des produits spécifiques. Grâce à son expertise, le technicien en traitement des nuisibles compétent identifie la source du problème, applique les solutions les plus sûres et prévient les récidives.",
+          "p2": "Que ce soit pour protéger votre maison, vos bureaux ou vos locaux commerciaux, ce professionnel vous apporte tranquillité d'esprit et sécurité au quotidien.",
+          "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
+        }
+      }
+    }
+  },
+  "faq": {
+    "title": "Artisan compétent : comment ça marche ?",
+    "q1": {
+      "title": "Comment trouver un artisan compétent sur Artisan-Compétent ?",
+      "p1": "Trouver un intervenant sur Artisan-Compétent est simple, rapide et 100 % digitalisé.",
+      "intro": "Après votre inscription, il vous suffit de :",
+      "steps": {
+        "item1": "choisir le métier dont vous avez besoin (plomberie, électricité, maçonnerie...)",
+        "item2": "définir un périmètre géographique",
+        "item3": "expliquer votre besoin, idéalement via une courte vidéo, mais aussi avec des photos ou du texte selon votre préférence"
+      },
+      "p2": "Votre demande est transmise aux professionnels qualifiés et/ou particuliers compétents correspondant à vos critères. Vous recevez plusieurs propositions pour comparer et choisir en toute transparence."
+    },
+    "q2": {
+      "title": "Quelles sont les garanties offertes par Artisan-Compétent ?",
+      "items": {
+        "escrow1": "Paiement séquestré : la totalité du devis jusqu'à 5 000 € est séquestrée.",
+        "escrow2": "Au-delà de 5 000 €, seule la main-d'œuvre est séquestrée (sauf artisans fabricants, selon cas).",
+        "tracking": "Suivi digitalisé du chantier : photos, commentaires et étapes en temps réel.",
+        "amod": "AMOD : un professionnel indépendant conseille et intervient en cas de doute ou litige.",
+        "abuse": "Protection contre les abus : intervention possible en cas de devis manifestement excessif.",
+        "pv": "Procès-verbal numérique : aucun paiement libéré sans validation formelle."
+      }
+    },
+    "q3": {
+      "title": "Que se passe-t-il si j'ai payé mais que l'artisan n'est pas intervenu ?",
+      "items": {
+        "escrow": "Les fonds étant séquestrés, l'intervenant ne peut pas être payé.",
+        "report": "Vous signalez la situation depuis votre tableau de bord.",
+        "review": "L'AMOD et les administrateurs analysent le dossier.",
+        "refund": "Remboursement intégral si aucune intervention n'a eu lieu."
+      },
+      "cta": "Vous ne prenez donc aucun risque financier."
+    },
+    "q4": {
+      "title": "Pourquoi passer uniquement par Artisan-Compétent pour vos petits travaux et urgences ?",
+      "items": {
+        "id": "Intervenants identifiés et encadrés.",
+        "price": "Prix dans les standards du marché.",
+        "block": "Paiement bloqué tant que le travail n'est pas validé.",
+        "neutral": "Interlocuteur neutre en cas de problème (AMOD + plateforme)."
+      },
+      "p": "Artisan-Compétent transforme une situation stressante en processus sécurisé et contrôlé."
+    },
+    "q5": {
+      "title": "Quel est le taux de TVA appliqué en France pour les travaux de rénovation ?",
+      "items": {
+        "rate55": "5,5 % : travaux d'amélioration énergétique (isolation, PAC, etc.).",
+        "rate10": "10 % : la plupart des autres travaux de rénovation.",
+        "rate20": "20 % : taux normal en dehors des cas éligibles."
+      },
+      "note": "Les taux réduits s'appliquent aux logements achevés depuis plus de 2 ans et peuvent couvrir main-d'œuvre et fournitures si fournies par le professionnel.",
+      "advice": "Il est souvent plus avantageux de confier fourniture et pose à l'artisan (sinon le matériel acheté par vous-même est à 20 %).",
+      "source": "Source : Ministère de l'Économie (TVA à taux réduit)."
+    },
+    "q6": {
+      "title": "Quelles sont les consignes / obligations pour les prestataires ?",
+      "items": {
+        "goals": "Artisan-Compétent réduit la prospection, élimine les impayés, sécurise les paiements et professionnalise la relation client.",
+        "sector": "Plateforme exclusivement dédiée au bâtiment.",
+        "commissionPro": "Commission de 20 % uniquement sur la main-d'œuvre (pros).",
+        "amodShare": "Sur ces 20 %, 5 % reversés à l'AMOD.",
+        "commissionInd": "Commission de 25 % pour les particuliers offrant leurs services."
+      }
+    },
+    "q7": {
+      "title": "Quelles sont les consignes / obligations en tant que client ?",
+      "p": "Voir la rubrique dédiée au sein de la plateforme (texte inchangé)."
+    },
+    "q8": {
+      "title": "Un AMOD, c'est quoi ?",
+      "items": {
+        "indep": "Professionnel du bâtiment indépendant, sans lien avec l'intervenant du chantier.",
+        "remote": "Intervient à distance via la plateforme.",
+        "exp": "Minimum 3 ans d'expérience terrain.",
+        "role1": "Accompagne le client dans la compréhension technique et analyse des devis.",
+        "role2": "Intervient en cas de doute, incompréhension ou litige.",
+        "role3": "Confirme objectivement la conformité des travaux."
+      },
+      "note": "L'AMOD n'est pas un chef de chantier et n'intervient pas physiquement. Sa présence est une garantie de sécurité et de neutralité."
+    }
   },
   "not-found": {
     "title": "Page introuvable",

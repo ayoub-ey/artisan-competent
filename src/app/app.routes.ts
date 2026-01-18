@@ -14,6 +14,80 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/jobs/jobs').then((p) => p.JobsPage),
   },
   {
+    path: 'jobs/electrician',
+    title: 'jobs.list.electrician.name',
+    loadComponent: () => import('./pages/job/electrician/electrician').then((c) => c.ElectricianPage),
+  },
+  {
+    path: 'jobs/locksmith-metaller',
+    title: 'jobs.list.locksmithMetaller.name',
+    loadComponent: () =>
+      import('./pages/job/locksmith-metaller/locksmith-metaller').then((c) => c.LocksmithMetallerPage),
+  },
+  {
+    path: 'jobs/plumber-sanitary',
+    title: 'jobs.list.plumberSanitary.name',
+    loadComponent: () => import('./pages/job/plumber-sanitary/plumber-sanitary').then((c) => c.PlumberSanitaryPage),
+  },
+  {
+    path: 'jobs/drain-unblocker',
+    title: 'jobs.list.drainUnblocker.name',
+    loadComponent: () => import('./pages/job/drain-unblocker/drain-unblocker').then((c) => c.DrainUnblockerPage),
+  },
+  {
+    path: 'jobs/heating-tech',
+    title: 'jobs.list.heatingTech.name',
+    loadComponent: () => import('./pages/job/heating-tech/heating-tech').then((c) => c.HeatingTechPage),
+  },
+  {
+    path: 'jobs/hvac-fridge-installer',
+    title: 'jobs.list.hvacFridgeInstaller.name',
+    loadComponent: () =>
+      import('./pages/job/hvac-fridge-installer/hvac-fridge-installer').then((c) => c.HvacFridgeInstallerPage),
+  },
+  {
+    path: 'jobs/carpenter-glazier',
+    title: 'jobs.list.carpenterGlazier.name',
+    loadComponent: () => import('./pages/job/carpenter-glazier/carpenter-glazier').then((c) => c.CarpenterGlazierPage),
+  },
+  {
+    path: 'jobs/painter-interior-facade',
+    title: 'jobs.list.painterInteriorFacade.name',
+    loadComponent: () =>
+      import('./pages/job/painter-interior-facade/painter-interior-facade').then((c) => c.PainterInteriorFacadePage),
+  },
+  {
+    path: 'jobs/drywaller-jointer',
+    title: 'jobs.list.drywallerJointer.name',
+    loadComponent: () => import('./pages/job/drywaller-jointer/drywaller-jointer').then((c) => c.DrywallerJointerPage),
+  },
+  {
+    path: 'jobs/floor-coverings',
+    title: 'jobs.list.floorCoverings.name',
+    loadComponent: () => import('./pages/job/floor-coverings/floor-coverings').then((c) => c.FloorCoveringsPage),
+  },
+  {
+    path: 'jobs/mason-minor-works',
+    title: 'jobs.list.masonMinorWorks.name',
+    loadComponent: () => import('./pages/job/mason-minor-works/mason-minor-works').then((c) => c.MasonMinorWorksPage),
+  },
+  {
+    path: 'jobs/roofer-zinc-carpenter',
+    title: 'jobs.list.rooferZincCarpenter.name',
+    loadComponent: () =>
+      import('./pages/job/roofer-zinc-carpenter/roofer-zinc-carpenter').then((c) => c.RooferZincCarpenterPage),
+  },
+  {
+    path: 'jobs/insulation-in-out',
+    title: 'jobs.list.insulationInOut.name',
+    loadComponent: () => import('./pages/job/insulation-in-out/insulation-in-out').then((c) => c.InsulationInOutPage),
+  },
+  {
+    path: 'jobs/pest-control',
+    title: 'jobs.list.pestControl.name',
+    loadComponent: () => import('./pages/job/pest-control/pest-control').then((c) => c.PestControlPage),
+  },
+  {
     path: '**',
     title: 'not-found.title',
     loadComponent: () => import('./shared/components/not-found/not-found').then((c) => c.NotFound),

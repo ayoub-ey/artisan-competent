@@ -25,9 +25,7 @@
               { "glob": "**/*", "input": "src/assets", "output": "assets" },
               { "glob": "**/*", "input": "public" }
             ],
-            "scripts": [
-              "node_modules/iconify-icon/dist/iconify-icon.min.js"
-            ],
+            "scripts": ["node_modules/iconify-icon/dist/iconify-icon.min.js"],
             "styles": ["src/fonts.css", "src/styles.css"]
           },
           "configurations": {
@@ -44,7 +42,25 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": true,
+              "sourceMap": false,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/env.ts",
+                  "with": "src/environments/env.prod.ts"
+                }
+              ]
+            },
+            "staging": {
+              "optimization": true,
+              "sourceMap": false,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/env.ts",
+                  "with": "src/environments/env.pprod.ts"
+                }
+              ]
             },
             "development": {
               "optimization": false,
@@ -63,6 +79,9 @@
           "configurations": {
             "production": {
               "buildTarget": "artisan-competent:build:production"
+            },
+            "staging": {
+              "buildTarget": "artisan-competent:build:staging"
             },
             "development": {
               "buildTarget": "artisan-competent:build:development"

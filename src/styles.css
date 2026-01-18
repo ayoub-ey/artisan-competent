@@ -53,6 +53,11 @@
   --h-grad-brown: linear-gradient(90deg, var(--primary-brown) 0%, var(--secondary-brown) 100%);
   --v-grad-water-green: linear-gradient(170deg, var(--primary-water-green) 0%, var(--secondary-water-green) 100%);
   --h-grad-water-green: linear-gradient(90deg, var(--primary-water-green) 0%, var(--secondary-water-green) 100%);
+
+  .title {
+    border-left: 0.25rem solid var(--primary-brown);
+    padding-left: 1rem;
+  }
 }
 
 html,
@@ -88,12 +93,20 @@ nav *:active {
 }
 
 /* Gradient utility helpers for Tailwind interop */
+.bg-grad-beige {
+  background: var(--v-grad-beige);
+}
+
 .bg-grad-brown {
   background: var(--v-grad-brown);
 }
 
 .bg-grad-water-green {
   background: var(--v-grad-water-green);
+}
+
+.hover\:bg-grad-beige:hover {
+  background: var(--v-grad-beige);
 }
 
 .hover\:bg-grad-brown:hover {

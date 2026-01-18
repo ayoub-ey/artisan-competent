@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { TranslocoModule } from '@jsverse/transloco';
 
 @Component({
   standalone: true,
-  imports: [TranslocoModule],
+  imports: [TranslocoModule, RouterModule],
   templateUrl: './jobs.html',
   styleUrl: './jobs.scss',
 })
