@@ -1,4 +1,4 @@
-<div class="rounded-full bg-[var(--primary-water-green)] text-[#f7c6b7] p-4 md:p-6 shadow mt-10">
+<div class="rounded-3xl bg-[var(--primary-water-green)] text-[#f7c6b7] p-4 shadow mt-10 md:p-6 md:rounded-full">
     <form class="flex flex-col gap-3 md:flex-row md:items-end" (ngSubmit)="submit()">
         <div class="flex-1">
             <input
@@ -17,8 +17,8 @@
                 class="appearance-none w-full px-3 py-2 rounded-full border bg-[var(--primary-beige)] text-[var(--secondary-water-green)]"
             >
                 <option value="" disabled selected>{{ 'searchPro.tradeLabel' | transloco }}</option>
-                <option *ngFor="let t of trades" [value]="t">
-                    {{ 'register.options.trades.' + t | transloco }}
+                <option *ngFor="let trade of trades" [value]="trade">
+                    {{ 'register.options.trades.' + trade | transloco }}
                 </option>
             </select>
         </div>
