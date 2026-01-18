@@ -1,6 +1,71 @@
 {
   "home": {
-    "title": "Accueil"
+    "title": "Votre tiers de confiance pour faire réaliser vos petits travaux",
+    "how": {
+      "title": "COMMENT ÇA MARCHE ?",
+      "forClients": "Pour les clients (particuliers & entreprises)"
+    },
+    "amod": {
+      "title": "AMOD : votre conseiller neutre",
+      "body": "Un Assistant à Maître d'Ouvrage Digital vous accompagne à distance pour sécuriser votre chantier.",
+      "items": {
+        "indep": "Professionnel indépendant, sans lien avec l'intervenant",
+        "expert": "Au moins 3 ans d'expérience terrain",
+        "role": "Conseil, analyse des devis et aide en cas de litige"
+      }
+    },
+    "what": {
+      "title": "Qu'est-ce qu'Artisan-Compétent ?",
+      "body": "Artisan-Compétent est une web application de mise en relation sécurisée de professionnel à particulier, mais aussi de particulier à particulier, exclusivement dans le monde du bâtiment."
+    },
+    "specialized": {
+      "title": "La plateforme est 100 % spécialisée bâtiment",
+      "body": "Contrairement aux simples annuaires ou plateformes de mise en relation passives, Artisan-Compétent agit comme tiers de confiance tout au long du projet :",
+      "item1": "de la demande initiale,",
+      "item2": "jusqu'au procès-verbal de fin de chantier,",
+      "item3": "en passant par le paiement sécurisé,",
+      "item4": "le suivi des travaux,",
+      "item5": "et la gestion des litiges si nécessaire."
+    },
+    "process": {
+      "title": "Processus entièrement digitalisé",
+      "body": "De la demande jusqu'au procès-verbal de réception, tout se déroule directement sur le dashboard du client, sans paperasse externe."
+    },
+    "objective": {
+      "title": "Notre objectif",
+      "body": "Permettre aux clients de réaliser leurs travaux sereinement, sans stress, sans arnaque, et avec une visibilité totale sur ce qui se passe."
+    }
+  },
+  "home.where": {
+    "title": "Où intervenons-nous ?",
+    "cities": {
+      "paris": "Paris et Ile-de-France",
+      "marseille": "Marseille et environs",
+      "lyon": "Lyon et environs",
+      "toulouse": "Toulouse et environs",
+      "nice": "Nice et environs",
+      "nantes": "Nantes et environs",
+      "montpellier": "Montpellier et environs",
+      "strasbourg": "Strasbourg et environs",
+      "bordeaux": "Bordeaux et environs",
+      "lille": "Lille et environs",
+      "rennes": "Rennes et environs",
+      "toulon": "Toulon et environs"
+    }
+  },
+  "home.local": {
+    "title": "Vos travaux, enfin en toute confiance",
+    "body1": "Paiement 100% sécurisé, fond séquestré et libéré uniquement après validation des travaux",
+    "body2": "Un AMOD indépendant pour vous conseiller",
+    "body3": "Plombiers, serruriers, électriciens disponibles 24/7",
+    "body4": "Suivi de chantier en temps réel",
+    "body5": "Protection contre les arnaques et abus",
+    "body6": "Professionnels et particuliers encadrés"
+  },
+  "common": {
+    "delete": "Supprimer",
+    "home": "Accueil",
+    "jobs": "Métiers"
   },
   "auth": {
     "register": "Inscription",
@@ -218,5 +283,12 @@
   "toggle": {
     "theme": "Basculer le thème",
     "lang": "Basculer la langue"
+  },
+  "searchPro": {
+    "placeholder": "Rechercher un professionnel ou un service",
+    "button": "Rechercher",
+    "addressLabel": "Adresse ou ville",
+    "tradeLabel": "Sélectionner un métier",
+    "kilometersLabel": "Rayon de recherche (km)"
   }
 }

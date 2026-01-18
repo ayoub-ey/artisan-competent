@@ -1,6 +1,66 @@
 {
   "home": {
-    "title": "Home"
+    "title": "Your trusted third party for getting small jobs done",
+    "how": {
+      "title": "HOW DOES IT WORK?",
+      "forClients": "For clients (individuals & businesses)"
+    },
+    "what": {
+      "title": "What is Artisan-Compétent?",
+      "body": "Artisan-Compétent is a secure matchmaking web app between professionals and individuals, and also between individuals, exclusively in the construction world."
+    },
+    "specialized": {
+      "title": "The platform is 100% construction-focused",
+      "body": "Unlike passive directories, Artisan-Compétent acts as a trusted third party throughout the project:",
+      "item1": "from the initial request,",
+      "item2": "to the final acceptance report,",
+      "item3": "including secure payment,",
+      "item4": "work progress tracking,",
+      "item5": "and dispute handling when needed."
+    },
+    "process": {
+      "title": "Fully digital process",
+      "body": "From the request to the acceptance report, everything happens on the client's dashboard, without external paperwork."
+    },
+    "objective": {
+      "title": "Our goal",
+      "body": "Enable clients to carry out their work with peace of mind, no scams, and full visibility."
+    },
+    "amod": {
+      "title": "AMOD: your neutral advisor",
+      "body": "A Digital Assistant to the Client supports you remotely to secure your project.",
+      "items": {
+        "indep": "Independent professional, no link to the provider",
+        "expert": "At least 3 years of field experience",
+        "role": "Advice, quote analysis and help in case of dispute"
+      }
+    }
+  },
+  "home.where": {
+    "title": "Where do we operate?",
+    "cities": {
+      "paris": "Paris and Ile-de-France",
+      "marseille": "Marseille and surrounding",
+      "lyon": "Lyon and surrounding",
+      "toulouse": "Toulouse and surrounding",
+      "nice": "Nice and surrounding",
+      "nantes": "Nantes and surrounding",
+      "montpellier": "Montpellier and surrounding",
+      "strasbourg": "Strasbourg and surrounding",
+      "bordeaux": "Bordeaux and surrounding",
+      "lille": "Lille and surrounding",
+      "rennes": "Rennes and surrounding",
+      "toulon": "Toulon and surrounding"
+    }
+  },
+  "home.local": {
+    "title": "Your work, finally with complete confidence",
+    "body1": "100% secure payment, escrow account, and funds released only after work is validated",
+    "body2": "An independent AMOD to advise you",
+    "body3": "Plumbers, locksmiths, and electricians available 24/7",
+    "body4": "Real-time project monitoring",
+    "body5": "Protection against scams and abuse",
+    "body6": "Supervised professionals and individuals"
   },
   "common": {
     "delete": "Delete",
@@ -373,5 +433,13 @@
       "trustPhone": "Trusted contact phone",
       "suppliers": "Supplier list"
     }
+  }
+  ,
+  "searchPro": {
+    "placeholder": "Search a professional or service",
+    "button": "Search",
+    "addressLabel": "Address or city",
+    "tradeLabel": "Select a trade",
+    "kilometersLabel": "Search radius (km)"
   }
 }

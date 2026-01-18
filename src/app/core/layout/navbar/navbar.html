@@ -1,87 +1,7 @@
-<!-- navbar for tablets and desktops -->
-<nav class="hidden md:flex md:items-center md:gap-6 md:justify-end md:relative">
-    <a
-        routerLink="/"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: true }"
-        class="px-2 py-1 no-underline rounded-l hover:bg-grad-water-green"
-    >
-        {{ 'home.title' | transloco }}
-    </a>
-    <a routerLink="/jobs" routerLinkActive="active" class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green">
-        {{ 'jobs.title' | transloco }}
-    </a>
-
-    <div class="relative group">
-        <span class="inline-block px-2 py-2 cursor-pointer lg:pointer-events-none" (click)="toggleDesktopRegister()">{{
-            'auth.register' | transloco
-        }}</span>
-        <div
-            class="absolute left-0 top-full hidden lg:group-hover:flex min-w-[220px] p-2 rounded-lg bg-grad-brown border border-[var(--secondary-beige)] flex-col gap-1 shadow-[0_4px_12px_rgba(0,0,0,0.2)]"
-            [ngClass]="{ 'md:flex': desktopRegisterOpen, 'md:hidden': !desktopRegisterOpen }"
-        >
-            <a
-                [routerLink]="['/auth/register']"
-                [queryParams]="{ t: 'individual' }"
-                class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green"
-            >
-                {{ 'auth.roles.individual' | transloco }}
-            </a>
-            <a
-                [routerLink]="['/auth/register']"
-                [queryParams]="{ t: 'professional' }"
-                class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green"
-            >
-                {{ 'auth.roles.professional' | transloco }}
-            </a>
-            <a
-                [routerLink]="['/auth/register']"
-                [queryParams]="{ t: 'supplier' }"
-                class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green"
-            >
-                {{ 'auth.roles.supplier' | transloco }}
-            </a>
-        </div>
-    </div>
-
-    <div class="relative group">
-        <span class="inline-block px-2 py-2 cursor-pointer lg:pointer-events-none" (click)="toggleDesktopLogin()">{{
-            'auth.login' | transloco
-        }}</span>
-        <div
-            class="absolute left-0 top-full hidden lg:group-hover:flex min-w-[220px] p-2 rounded-lg bg-grad-brown border border-[var(--secondary-beige)] flex-col gap-1 shadow-[0_4px_12px_rgba(0,0,0,0.2)]"
-            [ngClass]="{ 'md:flex': desktopLoginOpen, 'md:hidden': !desktopLoginOpen }"
-        >
-            <a
-                [routerLink]="['/auth/login']"
-                [queryParams]="{ t: 'individual' }"
-                class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green"
-            >
-                {{ 'auth.roles.individual' | transloco }}
-            </a>
-            <a
-                [routerLink]="['/auth/login']"
-                [queryParams]="{ t: 'professional' }"
-                class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green"
-            >
-                {{ 'auth.roles.professional' | transloco }}
-            </a>
-            <a
-                [routerLink]="['/auth/login']"
-                [queryParams]="{ t: 'supplier' }"
-                class="px-2 py-1 no-underline rounded-lg hover:bg-grad-water-green"
-            >
-                {{ 'auth.roles.supplier' | transloco }}
-            </a>
-        </div>
-    </div>
-</nav>
-
-<!-- navbar for mobiles -->
-<nav class="flex justify-between items-center w-full md:hidden">
+<nav class="flex justify-between items-center w-full">
     <button
         type="button"
-        class="grid gap-1 place-items-center w-6 h-5"
+        class="grid py-4 place-items-center size-16 rounded-full bg-[var(--tertiary-brown)]"
         (click)="toggleMobileNav()"
         aria-label="Menu"
         [attr.aria-expanded]="mobileNavOpen"
@@ -103,7 +23,7 @@
             [routerLinkActiveOptions]="{ exact: true }"
             class="p-2 no-underline rounded-lg hover:bg-grad-water-green"
         >
-            {{ 'home.title' | transloco }}
+            {{ 'common.home' | transloco }}
         </a>
         <a routerLink="/jobs" routerLinkActive="active" class="p-2 no-underline rounded-lg hover:bg-grad-water-green">
             {{ 'jobs.title' | transloco }}
