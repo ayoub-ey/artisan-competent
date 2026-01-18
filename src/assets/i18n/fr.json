@@ -70,6 +70,9 @@
   "auth": {
     "register": "Inscription",
     "login": "Connexion",
+    "logout": "Déconnexion",
+    "forget_password": "Mot de passe oublié ?",
+    "reset_password": "Réinitialiser le mot de passe",
     "roles": {
       "individual": "Je suis un particulier",
       "professional": "Je suis un professionnel",
@@ -283,6 +286,153 @@
   "toggle": {
     "theme": "Basculer le thème",
     "lang": "Basculer la langue"
+  },
+  "register": {
+    "title": "Inscription du particulier",
+    "addPhoto": "Ajouter une photo",
+    "addId": "Ajouter une carte d'identité",
+    "addRib": "Ajouter un RIB",
+    "offerServices": "Je souhaite offrir mes services",
+    "captcha": "Je ne suis pas un robot",
+    "cgu": "J'accepte les CGU",
+    "submit": "Valider",
+    "gender": {
+      "select": "Sélectionner le genre",
+      "female": "Femme",
+      "male": "Homme"
+    },
+    "fields": {
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "birthDate": "Date de naissance",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "passwordConfirm": "Confirmation mot de passe",
+      "phone": "Numéro de téléphone",
+      "trades": "Métiers",
+      "services": "Services proposés",
+      "address": {
+        "number": "Numéro de voie",
+        "street": "Nom de voie",
+        "complement": "Complément d'adresse",
+        "zip": "Code postal",
+        "city": "Ville"
+      }
+    },
+    "options": {
+      "trades": {
+        "plumbing": "Plomberie",
+        "electricity": "Électricité",
+        "masonry": "Maçonnerie",
+        "gardening": "Jardinage",
+        "locksmith": "Serrurerie"
+      },
+      "services": {
+        "installation": "Installation",
+        "repair": "Dépannage",
+        "maintenance": "Entretien",
+        "consulting": "Conseil"
+      }
+    }
+  },
+  "supplier": {
+    "title": "Inscription du fournisseur",
+    "addLogo": "Ajouter un logo",
+    "addRib": "Ajouter un RIB",
+    "submit": "Valider",
+    "fields": {
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "companyName": "Nom de la société",
+      "openingHours": "Horaires d'ouverture",
+      "siret": "Numéro SIRET",
+      "services": "Services proposés",
+      "phone": "Numéro de téléphone",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "passwordConfirm": "Confirmation du mot de passe",
+      "address": {
+        "number": "Numéro de voie",
+        "street": "Nom de voie",
+        "complement": "Complément d'adresse",
+        "zip": "Code postal",
+        "city": "Ville"
+      }
+    },
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "open": "Ouvert",
+    "errors": {
+      "timeRequired": "Heures requises pour une journée ouverte",
+      "timeOrder": "L'heure d'ouverture doit être avant la fermeture"
+    }
+  },
+  "professional": {
+    "title": "Inscription du professionnel",
+    "next": "Suivant",
+    "back": "Retour",
+    "submit": "Valider",
+    "optional": "champ optionnel",
+    "addPhoto": "Ajouter photo",
+    "addIdFront": "Ajouter carte d'identité recto",
+    "addIdBack": "Ajouter carte d'identité verso",
+    "addInsuranceDoc": "Ajouter document d'assurance",
+    "addDiplomaDoc": "Ajouter diplôme ou justificatif",
+    "addLogo": "Ajouter un logo",
+    "addRib": "Ajouter un RIB",
+    "onCall": "Astreinte",
+    "errors": {
+      "emailRequired": "Au moins un email est requis"
+    },
+    "manager": {
+      "company": "Société",
+      "sole": "Auto-entrepreneur"
+    },
+    "fields": {
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "birthDate": "Date de naissance",
+      "managerStatus": "Statut du gérant",
+      "managerPhone": "Numéro de téléphone du gérant",
+      "personalEmail": "Email personnel du gérant",
+      "professionalEmail": "Email professionnel du gérant",
+      "password": "Mot de passe",
+      "passwordConfirm": "Confirmation du mot de passe",
+      "address": {
+        "number": "Numéro de voie",
+        "street": "Nom de voie",
+        "complement": "Complément d'adresse",
+        "zip": "Code postal",
+        "city": "Ville"
+      },
+      "insuranceName": "Nom de l'assurance",
+      "insuranceNumber": "Numéro d'assurance",
+      "insuranceExpiry": "Date d'expiration",
+      "companyName": "Nom de la société",
+      "workAddress": {
+        "number": "Numéro de voie",
+        "street": "Nom de voie",
+        "complement": "Complément d'adresse",
+        "zip": "Code postal",
+        "city": "Ville"
+      },
+      "siret": "Numéro SIRET",
+      "trades": "Métiers",
+      "yearsExperience": "Années d'expérience",
+      "openingHours": "Horaires d'ouverture",
+      "description": "Descriptif vendeur (500 caractères max)",
+      "services": "Services proposés",
+      "trustName": "Nom de la personne de confiance",
+      "trustPhone": "Téléphone de la personne de confiance",
+      "suppliers": "Liste des fournisseurs"
+    }
   },
   "searchPro": {
     "placeholder": "Rechercher un professionnel ou un service",

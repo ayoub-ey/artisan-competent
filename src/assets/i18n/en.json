@@ -298,8 +298,7 @@
     "gender": {
       "select": "Select gender",
       "female": "Female",
-      "male": "Male",
-      "other": "Other"
+      "male": "Male"
     },
     "fields": {
       "lastName": "Last name",
@@ -423,7 +422,7 @@
         "zip": "ZIP code",
         "city": "City"
       },
-      "siren": "SIREN number",
+      "siret": "SIRET number",
       "trades": "Trades",
       "yearsExperience": "Years of experience",
       "openingHours": "Opening hours",

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { TranslocoModule } from '@jsverse/transloco';
@@ -13,11 +13,19 @@ import { ThemeToggle } from '../../../shared/components/theme-toggle/theme-toggl
   styleUrl: './navbar.scss',
 })
 export class Navbar {
+  // Opens the sandwich menu on mobiles
   mobileNavOpen = false;
+  // Opens the registration dropdown on mobiles
   mobileNavRegisterOpen = false;
+  // Opens the login dropdown on mobiles
   mobileNavLoginOpen = false;
-  desktopRegisterOpen = false;
-  desktopLoginOpen = false;
+  // Opens the registration dropdown on tablets
+  tabletNavRegisterOpen = false;
+  // Opens the login dropdown on tablets
+  tabletNavLoginOpen = false;
+
+  @ViewChild('registerDropdown') registerDropdown?: ElementRef<HTMLElement>;
+  @ViewChild('loginDropdown') loginDropdown?: ElementRef<HTMLElement>;
 
   toggleMobileNav() {
     this.mobileNavOpen = !this.mobileNavOpen;
@@ -39,13 +47,27 @@ export class Navbar {
 
   toggleDesktopRegister() {
     if (window.matchMedia('(min-width: 1024px)').matches) return;
-    this.desktopLoginOpen = false;
-    this.desktopRegisterOpen = !this.desktopRegisterOpen;
+    this.tabletNavLoginOpen = false;
+    this.tabletNavRegisterOpen = !this.tabletNavRegisterOpen;
   }
 
   toggleDesktopLogin() {
     if (window.matchMedia('(min-width: 1024px)').matches) return;
-    this.desktopRegisterOpen = false;
-    this.desktopLoginOpen = !this.desktopLoginOpen;
+    this.tabletNavRegisterOpen = false;
+    this.tabletNavLoginOpen = !this.tabletNavLoginOpen;
+  }
+
+  @HostListener('document:pointerdown', ['$event'])
+  onDocPointerDown(event: PointerEvent) {
+    if (window.matchMedia('(min-width: 1024px)').matches) return;
+    const target = event.target as Node;
+    if (this.tabletNavRegisterOpen) {
+      const element = this.registerDropdown?.nativeElement;
+      if (element && !element.contains(target)) this.tabletNavRegisterOpen = false;
+    }
+    if (this.tabletNavLoginOpen) {
+      const element = this.loginDropdown?.nativeElement;
+      if (element && !element.contains(target)) this.tabletNavLoginOpen = false;
+    }
   }
 }
