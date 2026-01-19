@@ -84,7 +84,8 @@
     "description": "Découvrez les métiers et compétences disponibles sur la plateforme.",
     "list": {
       "electrician": {
-        "name": "Électricien compétent",
+        "title": "Électricien compétent",
+        "name": "Électricien",
         "description": {
           "p1": "Avec Artisan-Compétent, trouver un électricien compétent n'a jamais été aussi simple. En quelques secondes, vous décrivez votre problème en audio, vidéo ou photo, et notre solution vous met directement en relation avec des électriciens qualifiés près de chez vous.",
           "p2": "Plus besoin de formulaires compliqués ou d'attendre un rappel : vous comparez les propositions reçues, choisissez l'artisan qui vous inspire confiance et bénéficiez d'une intervention rapide et sécurisée.",
@@ -92,7 +93,8 @@
         }
       },
       "locksmithMetaller": {
-        "name": "Serrurier & métallier compétent",
+        "title": "Serrurier & métallier compétent",
+        "name": "Serrurier & métallier",
         "description": {
           "p1": "Avec Artisan-Competent.com, vous décrivez simplement votre problème : porte claquée, serrure forcée, clé perdue ou installation de nouvelle serrure. Votre demande est envoyée instantanément aux serruriers compétents proches de chez vous.",
           "p2": "Vous recevez rapidement des propositions claires, avec des tarifs justes et sans mauvaise surprise. Grâce à notre système de mise en relation, vous gagnez du temps, vous comparez en toute transparence et vous choisissez le serrurier compétent qui correspond le mieux à vos besoins. Sécurité, rapidité et fiabilité : trouvez enfin un serrurier de confiance en quelques clics.",
@@ -100,7 +102,8 @@
         }
       },
       "plumberSanitary": {
-        "name": "Plombier sanitaire compétent",
+        "title": "Plombier sanitaire compétent",
+        "name": "Plombier sanitaire",
         "description": {
           "p1": "Avec Artisan-Competent.com, votre demande est transmise immédiatement aux plombiers compétents proches de chez vous, qui vous répondent rapidement avec leurs propositions et devis.",
           "p2": "Vous comparez en toute transparence, choisissez le professionnel le mieux adapté et profitez d'une intervention fiable au juste prix. Grâce à notre solution innovante, trouver un plombier compétent n'a jamais été aussi simple, rapide et sécurisé.",
@@ -108,7 +111,8 @@
         }
       },
       "drainUnblocker": {
-        "name": "Déboucheur de canalisations compétent",
+        "title": "Déboucheur de canalisations compétent",
+        "name": "Déboucheur de canalisations ",
         "description": {
           "p1": "Lorsqu'une canalisation est obstruée, il est essentiel de faire appel à un déboucheur compétent capable d'identifier rapidement la cause du problème et de proposer une solution adaptée.",
           "p2": "Grâce à son savoir-faire et à des outils professionnels, un déboucheur compétent garantit un résultat efficace tout en préservant vos installations. Que ce soit pour un évier bouché, des toilettes obstruées ou une canalisation engorgée, vous bénéficiez d'une intervention fiable et durable.",
@@ -116,7 +120,8 @@
         }
       },
       "heatingTech": {
-        "name": "Chauffagiste compétent",
+        "title": "Chauffagiste compétent",
+        "name": "Chauffagiste",
         "description": {
           "p1": "Faire appel à un chauffagiste compétent est essentiel pour garantir le bon fonctionnement et la durabilité de vos installations de chauffage.",
           "p2": "Qu'il s'agisse de l'installation d'une chaudière, de l'entretien régulier ou d'un dépannage en urgence, un chauffagiste compétent vous assure une intervention rapide, efficace et conforme aux normes. Grâce à son expertise, vous bénéficiez non seulement d'un confort optimal, mais aussi d'économies d'énergie sur le long terme.",
@@ -124,7 +129,8 @@
         }
       },
       "hvacFridgeInstaller": {
-        "name": "Installateur / réparateur climatisation & frigoriste compétent (à revoir)",
+        "title": "Installateur / réparateur climatisation & frigoriste compétent",
+        "name": "Installateur / réparateur climatisation & frigoriste",
         "description": {
           "p1": "L'installation et la maintenance des systèmes de climatisation ou de réfrigération exigent l'expertise d'un technicien froid compétent. Ce professionnel maîtrise les normes de sécurité et garantit des interventions précises, qu'il s'agisse d'une mise en service, d'un entretien préventif ou d'une réparation en urgence.",
           "p2": "En choisissant un technicien froid compétent, vous assurez la performance et la durabilité de vos équipements, tout en bénéficiant d'un confort thermique optimal et d'économies d'énergie.",
@@ -132,7 +138,8 @@
         }
       },
       "carpenterGlazier": {
-        "name": "Menuisier & vitrier compétent (stores, fenêtres, portes...)",
+        "title": "Menuisier & vitrier compétent",
+        "name": "Menuisier & vitrier (stores, fenêtres, portes...)",
         "description": {
           "p1": "La menuiserie et la vitrerie exigent précision, technicité et savoir-faire. Faire appel à un menuisier vitrier compétent, c'est bénéficier d'un accompagnement de qualité, que ce soit pour la pose de fenêtres, la réparation de vitrages cassés, la création de portes sur mesure ou l'aménagement intérieur.",
           "p2": "Grâce à son expertise, un menuisier vitrier compétent assure des finitions impeccables, une isolation optimale et une durabilité dans le temps. Que vous soyez un particulier ou un professionnel, vous gagnez en sécurité, confort et esthétisme.",
@@ -140,7 +147,8 @@
         }
       },
       "painterInteriorFacade": {
-        "name": "Peintre d'intérieur & façadier compétent",
+        "title": "Peintre d'intérieur & façadier compétent",
+        "name": "Peintre d'intérieur & façadier",
         "description": {
           "p1": "Faire appel à un peintre façadier compétent, c'est l'assurance de bénéficier d'un travail soigné et durable, aussi bien pour vos murs intérieurs que pour vos façades extérieures. Ce professionnel maîtrise les techniques adaptées à chaque support et utilise des matériaux de qualité pour garantir un rendu esthétique et une protection optimale de vos surfaces.",
           "p2": "Que ce soit pour un ravalement, une rénovation ou une mise en valeur de votre habitat, un peintre façadier compétent vous garantit un résultat qui allie solidité, esthétique et respect des délais.",
@@ -148,7 +156,8 @@
         }
       },
       "drywallerJointer": {
-        "name": "Plaquiste & jointeur compétent (à revoir)",
+        "title": "Plaquiste & jointeur compétent (à revoir)",
+        "name": "Plaquiste & jointeur",
         "description": {
           "p1": "Un plaquiste compétent est un professionnel qualifié qui se spécialise dans la pose de plafonds, de murs, de volets et d'autres éléments de construction.",
           "p2": "Il utilise des outils et des techniques appropriées pour assurer la sécurité, l'efficacité et la qualité de la construction.",
@@ -156,7 +165,8 @@
         }
       },
       "floorCoverings": {
-        "name": "Revêtements de sols compétent (carrelage, parquet...) (à revoir)",
+        "title": "Revêtements de sols compétent (à revoir)",
+        "name": "Revêtements de sols (carrelage, parquet...)",
         "description": {
           "p1": "Un revêtement de sol est une couche de peinture ou de carrelage qui protège les sols contre les rayons UV, les brusques chocs et les agressions extérieures.",
           "p2": "Il peut également être utilisé pour ajouter de la texture et de la couleur au sol, en particulier lors de travaux de construction ou de rénovation.",
@@ -164,7 +174,8 @@
         }
       },
       "masonMinorWorks": {
-        "name": "Maçon compétent (hors gros œuvre) (à revoir)",
+        "title": "Maçon compétent (à revoir)",
+        "name": "Maçon (hors gros œuvre)",
         "description": {
           "p1": "Un maçon compétent est un professionnel qualifié qui se spécialise dans la construction et la modification de murs, de fenêtres, de portes, de volets et d'autres éléments de construction.",
           "p2": "Il utilise des outils et des techniques appropriées pour assurer la sécurité, l'efficacité et la qualité de la construction.",
@@ -172,7 +183,8 @@
         }
       },
       "rooferZincCarpenter": {
-        "name": "Couvreur, zingueur & charpentier compétent (à revoir)",
+        "title": "Couvreur, zingueur & charpentier compétent (à revoir)",
+        "name": "Couvreur, zingueur & charpentier",
         "description": {
           "p1": "Un couvreur compétent est un professionnel qualifié qui se spécialise dans la pose de plafonds, de murs, de volets et d'autres éléments de construction.",
           "p2": "Il utilise des outils et des techniques appropriées pour assurer la sécurité, l'efficacité et la qualité de la construction.",
@@ -180,7 +192,8 @@
         }
       },
       "insulationInOut": {
-        "name": "Isolation intérieure & extérieure compétent (à revoir)",
+        "title": "Isolation intérieure & extérieure compétent (à revoir)",
+        "name": "Isolation intérieure & extérieure",
         "description": {
           "p1": "L'isolation intérieure et extérieure sont essentielles pour protéger les bâtiments contre les agressions extérieures et les émissions de gaz à effet de serre.",
           "p2": "Un professionnel qualifié se spécialise dans l'isolation de murs, de volets, de plafonds et de fenêtres, en utilisant des matériaux de qualité et des techniques appropriées.",
@@ -188,7 +201,8 @@
         }
       },
       "pestControl": {
-        "name": "Traitement anti-nuisibles compétent (rongeurs, punaises...)",
+        "title": "Traitement anti-nuisibles compétent",
+        "name": "Traitement anti-nuisibles (rongeurs, punaises...)",
         "description": {
           "p1": "Faire appel à un technicien en traitement des nuisibles compétent, c'est la garantie d'une intervention rapide, efficace et durable. Rongeurs, punaises de lit, cafards, fourmis ou guêpes : chaque infestation demande une méthode adaptée et des produits spécifiques. Grâce à son expertise, le technicien en traitement des nuisibles compétent identifie la source du problème, applique les solutions les plus sûres et prévient les récidives.",
           "p2": "Que ce soit pour protéger votre maison, vos bureaux ou vos locaux commerciaux, ce professionnel vous apporte tranquillité d'esprit et sécurité au quotidien.",

@@ -83,7 +83,7 @@
     "description": "Explore the trades and skills available on the platform.",
     "list": {
       "electrician": {
-        "name": "Competent Electrician",
+        "name": "Electrician",
         "description": {
           "p1": "With Artisan-Compétent, finding a competent electrician has never been easier. In seconds, describe your issue via audio, video or photo, and our solution connects you directly with qualified electricians near you.",
           "p2": "No more complex forms or waiting for callbacks: compare proposals, choose the professional you trust, and get fast, secure service.",
@@ -91,7 +91,7 @@
         }
       },
       "locksmithMetaller": {
-        "name": "Competent Locksmith & Metalworker",
+        "name": "Locksmith & Metalworker",
         "description": {
           "p1": "With Artisan-Competent.com, simply describe your issue: door slammed, forced lock, lost key or installing a new lock. Your request is instantly sent to competent locksmiths near you.",
           "p2": "You quickly receive clear proposals with fair prices and no surprises. Our matchmaking system saves time, lets you compare transparently, and choose the competent locksmith that best fits your needs. Security, speed and reliability — find a trusted locksmith in a few clicks.",
@@ -99,7 +99,7 @@
         }
       },
       "plumberSanitary": {
-        "name": "Competent Sanitary Plumber",
+        "name": "Sanitary Plumber",
         "description": {
           "p1": "With Artisan-Competent.com, your request is immediately sent to competent plumbers near you who reply quickly with their proposals and quotes.",
           "p2": "Compare transparently, choose the most suitable professional and enjoy reliable service at a fair price. With our innovative solution, finding a competent plumber has never been simpler, faster or more secure.",
@@ -107,7 +107,7 @@
         }
       },
       "drainUnblocker": {
-        "name": "Competent Drain Unblocker",
+        "name": "Drain Unblocker",
         "description": {
           "p1": "When a pipe is clogged, it’s essential to call a competent unblocker who can quickly identify the cause and propose an appropriate solution.",
           "p2": "With know-how and professional tools, a competent unblocker ensures effective results while preserving your installations. Whether it’s a blocked sink, clogged toilets or an overloaded pipe, you get reliable and lasting intervention.",
@@ -115,7 +115,7 @@
         }
       },
       "heatingTech": {
-        "name": "Competent Heating Technician",
+        "name": "Heating Technician",
         "description": {
           "p1": "Calling on a competent heating technician is essential to ensure proper operation and durability of your heating installations.",
           "p2": "Whether installing a boiler, regular maintenance or urgent repair, a competent technician provides fast, efficient, standards‑compliant service. With their expertise, you enjoy optimal comfort and long‑term energy savings.",
@@ -123,7 +123,7 @@
         }
       },
       "hvacFridgeInstaller": {
-        "name": "Competent HVAC installer/repairer & refrigeration technician",
+        "name": "HVAC installer/repairer & refrigeration technician",
         "description": {
           "p1": "Installing and maintaining air‑conditioning or refrigeration systems requires the expertise of a competent cooling technician. This professional masters safety standards and guarantees precise interventions, whether commissioning, preventive maintenance or urgent repair.",
           "p2": "By choosing a competent cooling technician, you ensure your equipment’s performance and durability, while benefiting from optimal thermal comfort and energy savings.",
@@ -131,7 +131,7 @@
         }
       },
       "carpenterGlazier": {
-        "name": "Competent Carpenter & Glazier (blinds, windows, doors, etc.)",
+        "name": "Carpenter & Glazier (blinds, windows, doors, etc.)",
         "description": {
           "p1": "Carpentry and glazing require precision, technical skills and craftsmanship. Calling on a competent carpenter‑glazier means quality support, whether installing windows, repairing broken glass, building custom doors or interior fittings.",
           "p2": "Thanks to their expertise, a competent carpenter‑glazier delivers flawless finishes, optimal insulation and long‑lasting results. Whether you’re an individual or a business, you gain safety, comfort and aesthetics.",
@@ -139,7 +139,7 @@
         }
       },
       "painterInteriorFacade": {
-        "name": "Competent Interior Painter & Facade Worker",
+        "name": "Interior Painter & Facade Worker",
         "description": {
           "p1": "Calling on a competent facade painter ensures careful, durable work for your interior walls and exterior facades. This professional masters techniques for each substrate and uses quality materials to guarantee aesthetics and optimal protection.",
           "p2": "Whether for facade refurbishment, renovation or enhancing your home, a competent painter guarantees results that combine durability, aesthetics and meeting deadlines.",
@@ -147,7 +147,7 @@
         }
       },
       "drywallerJointer": {
-        "name": "Competent Drywaller & Jointer",
+        "name": "Drywaller & Jointer",
         "description": {
           "p1": "A competent drywaller is a qualified professional specializing in installing ceilings, walls, shutters and other construction elements.",
           "p2": "They use appropriate tools and techniques to ensure safety, efficiency and build quality.",
@@ -155,7 +155,7 @@
         }
       },
       "floorCoverings": {
-        "name": "Competent Floor Covering Specialist (tiles, parquet, etc.)",
+        "name": "Floor Covering Specialist (tiles, parquet, etc.)",
         "description": {
           "p1": "A floor covering is a finishing layer (tile, parquet, coating) protecting floors from wear, impacts and external aggressions.",
           "p2": "It also adds texture and color, particularly for construction or renovation projects.",
@@ -163,7 +163,7 @@
         }
       },
       "masonMinorWorks": {
-        "name": "Competent Mason (excluding heavy structural work)",
+        "name": "Mason (excluding heavy structural work)",
         "description": {
           "p1": "A competent mason is a qualified professional specializing in building and modifying walls, windows, doors, shutters and other elements.",
           "p2": "They use appropriate tools and techniques to ensure safety, efficiency and build quality.",
@@ -171,7 +171,7 @@
         }
       },
       "rooferZincCarpenter": {
-        "name": "Competent Roofer, Zinc Worker & Carpenter",
+        "name": "Roofer, Zinc Worker & Carpenter",
         "description": {
           "p1": "A competent roofer is a qualified professional specializing in installing and repairing roofs and structural elements.",
           "p2": "They use appropriate tools and techniques to ensure safety, efficiency and build quality.",
@@ -179,7 +179,7 @@
         }
       },
       "insulationInOut": {
-        "name": "Competent Insulation (interior & exterior)",
+        "name": "Insulation (interior & exterior)",
         "description": {
           "p1": "Interior and exterior insulation are essential to protect buildings from external aggressions and reduce energy losses.",
           "p2": "A qualified professional specializes in insulating walls, shutters, ceilings and windows, using quality materials and appropriate techniques.",
@@ -187,7 +187,7 @@
         }
       },
       "pestControl": {
-        "name": "Competent Pest Control (rodents, bedbugs, etc.)",
+        "name": "Pest Control (rodents, bedbugs, etc.)",
         "description": {
           "p1": "Calling on a competent pest control technician guarantees fast, effective and lasting intervention. Rodents, bedbugs, cockroaches, ants or wasps: each infestation requires an adapted method and specific products. Thanks to their expertise, the technician identifies the source, applies the safest solutions and prevents recurrence.",
           "p2": "Whether protecting your home, offices or commercial premises, this professional brings peace of mind and everyday safety.",
