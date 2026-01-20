@@ -307,7 +307,7 @@
     }
   },
   "faq": {
-    "title": "Artisan compétent: comment ça marche ?",
+    "title": "Artisan compétent : comment ça marche ?",
     "q1": {
       "title": "Comment trouver un artisan compétent sur Artisan-Compétent ?",
       "p1": "Trouver un intervenant sur Artisan-Compétent est simple, rapide et 100 % digitalisé.",
@@ -373,7 +373,43 @@
     },
     "q7": {
       "title": "Quelles sont les consignes / obligations en tant que client ?",
-      "p": "Voir la rubrique dédiée au sein de la plateforme (texte inchangé)."
+      "intro": "En tant que client, vous vous engagez à respecter un cadre précis visant à sécuriser les paiements, protéger toutes les parties et éviter les litiges.",
+      "pay": {
+        "title": "Concernant le paiement et les fournitures :",
+        "upTo5000": "Jusqu'à 5 000 €, l'intégralité du montant (main-d'œuvre + fournitures) est séquestrée sur la plateforme.",
+        "laborOnly": "Toutefois, jusqu'à 5 000 €, le client a également la possibilité de ne régler que la partie main-d'œuvre sur la plateforme.",
+        "options": {
+          "li1": "soit le client se rend avec l'artisan chez le fournisseur et règle directement les matériaux,",
+          "li2": "soit l'artisan se rend seul chez le fournisseur, avance les frais des fournitures, et le client ne règle l'artisan qu'une fois les fournitures livrées et présentes chez lui."
+        },
+        "advanceNote": "Dans cette configuration, l'artisan perçoit le remboursement de son avance de fournitures sans attendre la validation du procès-verbal de fin de chantier, la séquestration restant limitée à la main-d'œuvre.",
+        "above5000": "Au-delà de 5 000 €, seule la main-d'œuvre est séquestrée.",
+        "directSupplier": "Les fournitures doivent être réglées directement au fournisseur, idéalement en présence de l'artisan.",
+        "discourageDirectArtisan": "Le paiement direct à l'artisan pour les matériaux est déconseillé, sauf cas exceptionnel clairement encadré et justifié."
+      },
+      "obl": {
+        "title": "Vous avez l'obligation de :",
+        "items": {
+          "req": "créer une demande claire et honnête,",
+          "insurance": "vérifier l'assurance professionnelle lorsqu'il s'agit d'un artisan,",
+          "tracking": "suivre l'avancement du chantier,",
+          "report": "signaler immédiatement tout problème ou doute,",
+          "noBypass": "ne jamais contourner le système de paiement."
+        }
+      },
+      "bypass": {
+        "title": "Tout contournement du paiement sécurisé entraîne :",
+        "items": {
+          "cancelGuarantees": "l'annulation des garanties,",
+          "disengagement": "le désengagement total d'Artisan-Compétent,",
+          "amodImpossible": "l'impossibilité d'intervention de l'AMOD en cas de litige."
+        }
+      },
+      "pv": {
+        "title": "Le procès-verbal de fin de chantier est obligatoire pour libérer les fonds.",
+        "text": "Sans validation formelle, aucun paiement n'est effectué."
+      },
+      "goal": "L'objectif de ces règles est simple : vous protéger, éviter les abus et garantir une expérience sereine et maîtrisée."
     },
     "q8": {
       "title": "Un AMOD, c'est quoi ?",

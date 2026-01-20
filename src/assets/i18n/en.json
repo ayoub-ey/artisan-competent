@@ -292,7 +292,7 @@
     }
   },
   "faq": {
-    "title": "Skilled craftsman: how does it work ?",
+    "title": "Skilled craftsman : how does it work ?",
     "q1": {
       "title": "How to find a competent craftsman on Artisan-Compétent?",
       "p1": "Finding a service provider on Artisan-Compétent is simple, fast and fully digital.",
@@ -358,7 +358,43 @@
     },
     "q7": {
       "title": "What are the guidelines/obligations for clients?",
-      "p": "See the dedicated section in the platform (unchanged text)."
+      "intro": "As a client, you commit to a clear framework designed to secure payments, protect all parties and avoid disputes.",
+      "pay": {
+        "title": "Regarding payment and supplies:",
+        "upTo5000": "Up to €5,000, the entire amount (labor + supplies) is held in escrow on the platform.",
+        "laborOnly": "However, up to €5,000, the client may choose to pay only the labor via the platform.",
+        "options": {
+          "li1": "either the client goes with the craftsman to the supplier and pays the materials directly,",
+          "li2": "or the craftsman goes alone to the supplier, advances the cost of supplies, and the client pays the craftsman only once the supplies are delivered and present at their home."
+        },
+        "advanceNote": "In this setup, the craftsman is reimbursed for the supply advance without waiting for the final acceptance report; escrow remains limited to labor.",
+        "above5000": "Above €5,000, only labor is held in escrow.",
+        "directSupplier": "Supplies must be paid directly to the supplier, ideally with the craftsman present.",
+        "discourageDirectArtisan": "Paying the craftsman directly for materials is discouraged, except in clearly framed and justified exceptional cases."
+      },
+      "obl": {
+        "title": "You are required to:",
+        "items": {
+          "req": "create a clear and honest request,",
+          "insurance": "verify professional insurance when dealing with a craftsman,",
+          "tracking": "track the progress of the work,",
+          "report": "report any issue or doubt immediately,",
+          "noBypass": "never bypass the payment system."
+        }
+      },
+      "bypass": {
+        "title": "Any bypass of secure payment results in:",
+        "items": {
+          "cancelGuarantees": "cancellation of guarantees,",
+          "disengagement": "complete disengagement of Artisan‑Compétent,",
+          "amodImpossible": "impossibility for AMOD to intervene in case of dispute."
+        }
+      },
+      "pv": {
+        "title": "The final acceptance report is mandatory to release funds.",
+        "text": "Without formal validation, no payment is made."
+      },
+      "goal": "These rules have a simple goal: protect you, prevent abuses and ensure a calm, controlled experience."
     },
     "q8": {
       "title": "What is an AMOD?",
