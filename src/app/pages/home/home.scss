@@ -56,3 +56,32 @@
   background-color: var(--tertiary-brown);
   border-radius: 9999px;
 }
+
+/* Étapes accordéon: cacher l'icône flèche par défaut sur summary */
+.steps-accordion summary {
+  list-style: none;
+}
+
+.steps-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.steps-accordion summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.steps-accordion summary::after {
+  content: "+";
+  font-weight: 700;
+  color: var(--primary-brown);
+  display: inline-block;
+  width: 1rem;
+  text-align: center;
+}
+
+.steps-accordion details[open] > summary::after {
+  content: "−";
+}

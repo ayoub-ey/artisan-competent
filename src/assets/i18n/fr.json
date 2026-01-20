@@ -6,7 +6,7 @@
       "forClients": "Pour les clients (particuliers & entreprises)"
     },
     "amod": {
-      "title": "AMOD : votre conseiller neutre",
+      "title": "AMOD: votre conseiller neutre",
       "body": "Un Assistant à Maître d'Ouvrage Digital vous accompagne à distance pour sécuriser votre chantier.",
       "items": {
         "indep": "Professionnel indépendant, sans lien avec l'intervenant",
@@ -20,7 +20,7 @@
     },
     "specialized": {
       "title": "La plateforme est 100 % spécialisée bâtiment",
-      "body": "Contrairement aux simples annuaires ou plateformes de mise en relation passives, Artisan-Compétent agit comme tiers de confiance tout au long du projet :",
+      "body": "Contrairement aux simples annuaires ou plateformes de mise en relation passives, Artisan-Compétent agit comme tiers de confiance tout au long du projet:",
       "item1": "de la demande initiale,",
       "item2": "jusqu'au procès-verbal de fin de chantier,",
       "item3": "en passant par le paiement sécurisé,",
@@ -62,6 +62,101 @@
     "body5": "Protection contre les arnaques et abus",
     "body6": "Professionnels et particuliers encadrés"
   },
+  "home.steps": {
+    "title": "Les étapes pour utiliser Artisan-Compétent",
+    "items1": {
+      "title": "Consultation de la plateforme",
+      "p1": "Le client découvre Artisan-Compétent, ses garanties, son fonctionnement et les métiers disponibles, exclusivement dans le domaine du bâtiment."
+    },
+    "items2": {
+      "title": "Inscription sécurisée",
+      "p1": "Le client crée son compte en quelques minutes:",
+      "li1": "particulier ou entreprise,",
+      "li2": "informations de base,",
+      "li3": "accès immédiat à son tableau de bord personnel.",
+      "note": "Aucun engagement à ce stade."
+    },
+    "items3": {
+      "title": "Création d'une demande de travaux",
+      "p1": "Depuis le tableau de bord, le client:",
+      "li1": "sélectionne le métier (plombier, électricien, maçon, serrurier, etc.),",
+      "li2": "définit le périmètre géographique,",
+      "li3": "explique son besoin via:",
+      "li3a": "une vidéo (recommandée),",
+      "li3b": "des photos,",
+      "li3c": "ou un texte descriptif.",
+      "note": "Cette étape ne prend que quelques secondes."
+    },
+    "items4": {
+      "title": "Diffusion automatique de la demande",
+      "p1": "La demande est transmise automatiquement:",
+      "li1": "aux professionnels qualifiés,",
+      "li2": "et/ou aux particuliers compétents,",
+      "li3": "correspondant aux critères définis.",
+      "note": "Tous les intervenants reçoivent la demande simultanément, garantissant transparence et concurrence équitable."
+    },
+    "items5": {
+      "title": "Réception et comparaison des devis",
+      "p1": "Les intervenants intéressés proposent leurs devis. Le client peut:",
+      "li1": "comparer les offres,",
+      "li2": "poser des questions,",
+      "li3": "consulter les profils,",
+      "li4": "vérifier les assurances (pour les professionnels).",
+      "note": "Le client reste libre de son choix."
+    },
+    "items6": {
+      "title": "Signature du devis",
+      "p1": "Une fois le devis sélectionné:",
+      "li1": "le devis est signé directement sur la plateforme,",
+      "li2": "les conditions sont figées,",
+      "li3": "le chantier peut être enclenché."
+    },
+    "items7": {
+      "title": "Paiement sécurisé et séquestré",
+      "p1": "Le client règle le montant via Artisan-Compétent:",
+      "li1": "jusqu'à 5 000 €: 100 % du montant est séquestré.",
+      "li2": "Au-delà de 5 000 €: seule la main-d'œuvre est séquestrée (sauf exception artisans fabricants).",
+      "note": "Les fonds ne sont jamais versés directement avant validation finale."
+    },
+    "items8": {
+      "title": "Désignation automatique de l'AMOD",
+      "p1": "Après paiement:",
+      "li1": "un AMOD (Assistant à Maître d'Ouvrage Digital) est automatiquement désigné,",
+      "li2": "professionnel indépendant avec minimum 3 ans d'expérience,",
+      "li3": "il suit le chantier à distance et conseille le client si nécessaire."
+    },
+    "items9": {
+      "title": "Démarrage et suivi du chantier",
+      "p1": "Pendant toute la durée des travaux:",
+      "li1": "l'intervenant publie des photos et commentaires réguliers,",
+      "li2": "le client suit l'avancement depuis son tableau de bord,",
+      "li3": "chaque étape est tracée et documentée.",
+      "note": "Le client reste maître d'ouvrage et valide les étapes clés."
+    },
+    "items10": {
+      "title": "Réception des travaux",
+      "p1": "À la fin du chantier:",
+      "p2": "un procès-verbal de réception est généré de manière digitale, le client peut:",
+      "li1": "accepter les travaux,",
+      "li2": "ou émettre des réserves.",
+      "note": "Sans procès-verbal signé, aucun paiement n'est libéré."
+    },
+    "items11": {
+      "title": "Libération des fonds",
+      "p1": "Une fois le procès-verbal validé:",
+      "li1": "les fonds séquestrés sont libérés,",
+      "li2": "le paiement est versé à l'intervenant sous 72 heures maximum.",
+      "note": "En cas de réserve ou de malfaçon confirmée, la plateforme ajuste ou rembourse la partie concernée."
+    },
+    "items12": {
+      "title": "Avis et clôture du chantier",
+      "p1": "Le client laisse un avis:",
+      "li1": "transparent,",
+      "li2": "constructif,",
+      "li3": "utile à la communauté.",
+      "note": "Le chantier est officiellement clôturé."
+    }
+  },
   "common": {
     "delete": "Supprimer",
     "home": "Accueil",
@@ -88,7 +183,7 @@
         "name": "Électricien",
         "description": {
           "p1": "Avec Artisan-Compétent, trouver un électricien compétent n'a jamais été aussi simple. En quelques secondes, vous décrivez votre problème en audio, vidéo ou photo, et notre solution vous met directement en relation avec des électriciens qualifiés près de chez vous.",
-          "p2": "Plus besoin de formulaires compliqués ou d'attendre un rappel : vous comparez les propositions reçues, choisissez l'artisan qui vous inspire confiance et bénéficiez d'une intervention rapide et sécurisée.",
+          "p2": "Plus besoin de formulaires compliqués ou d'attendre un rappel: vous comparez les propositions reçues, choisissez l'artisan qui vous inspire confiance et bénéficiez d'une intervention rapide et sécurisée.",
           "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
         }
       },
@@ -96,8 +191,8 @@
         "title": "Serrurier & métallier compétent",
         "name": "Serrurier & métallier",
         "description": {
-          "p1": "Avec Artisan-Competent.com, vous décrivez simplement votre problème : porte claquée, serrure forcée, clé perdue ou installation de nouvelle serrure. Votre demande est envoyée instantanément aux serruriers compétents proches de chez vous.",
-          "p2": "Vous recevez rapidement des propositions claires, avec des tarifs justes et sans mauvaise surprise. Grâce à notre système de mise en relation, vous gagnez du temps, vous comparez en toute transparence et vous choisissez le serrurier compétent qui correspond le mieux à vos besoins. Sécurité, rapidité et fiabilité : trouvez enfin un serrurier de confiance en quelques clics.",
+          "p1": "Avec Artisan-Competent.com, vous décrivez simplement votre problème: porte claquée, serrure forcée, clé perdue ou installation de nouvelle serrure. Votre demande est envoyée instantanément aux serruriers compétents proches de chez vous.",
+          "p2": "Vous recevez rapidement des propositions claires, avec des tarifs justes et sans mauvaise surprise. Grâce à notre système de mise en relation, vous gagnez du temps, vous comparez en toute transparence et vous choisissez le serrurier compétent qui correspond le mieux à vos besoins. Sécurité, rapidité et fiabilité: trouvez enfin un serrurier de confiance en quelques clics.",
           "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
         }
       },
@@ -204,7 +299,7 @@
         "title": "Traitement anti-nuisibles compétent",
         "name": "Traitement anti-nuisibles (rongeurs, punaises...)",
         "description": {
-          "p1": "Faire appel à un technicien en traitement des nuisibles compétent, c'est la garantie d'une intervention rapide, efficace et durable. Rongeurs, punaises de lit, cafards, fourmis ou guêpes : chaque infestation demande une méthode adaptée et des produits spécifiques. Grâce à son expertise, le technicien en traitement des nuisibles compétent identifie la source du problème, applique les solutions les plus sûres et prévient les récidives.",
+          "p1": "Faire appel à un technicien en traitement des nuisibles compétent, c'est la garantie d'une intervention rapide, efficace et durable. Rongeurs, punaises de lit, cafards, fourmis ou guêpes: chaque infestation demande une méthode adaptée et des produits spécifiques. Grâce à son expertise, le technicien en traitement des nuisibles compétent identifie la source du problème, applique les solutions les plus sûres et prévient les récidives.",
           "p2": "Que ce soit pour protéger votre maison, vos bureaux ou vos locaux commerciaux, ce professionnel vous apporte tranquillité d'esprit et sécurité au quotidien.",
           "p3": "Finis les arnaques avec notre système de séquestration de paiement, vous ne prenez plus aucun risque !"
         }
@@ -212,11 +307,11 @@
     }
   },
   "faq": {
-    "title": "Artisan compétent : comment ça marche ?",
+    "title": "Artisan compétent: comment ça marche ?",
     "q1": {
       "title": "Comment trouver un artisan compétent sur Artisan-Compétent ?",
       "p1": "Trouver un intervenant sur Artisan-Compétent est simple, rapide et 100 % digitalisé.",
-      "intro": "Après votre inscription, il vous suffit de :",
+      "intro": "Après votre inscription, il vous suffit de:",
       "steps": {
         "item1": "choisir le métier dont vous avez besoin (plomberie, électricité, maçonnerie...)",
         "item2": "définir un périmètre géographique",
@@ -227,12 +322,12 @@
     "q2": {
       "title": "Quelles sont les garanties offertes par Artisan-Compétent ?",
       "items": {
-        "escrow1": "Paiement séquestré : la totalité du devis jusqu'à 5 000 € est séquestrée.",
+        "escrow1": "Paiement séquestré: la totalité du devis jusqu'à 5 000 € est séquestrée.",
         "escrow2": "Au-delà de 5 000 €, seule la main-d'œuvre est séquestrée (sauf artisans fabricants, selon cas).",
-        "tracking": "Suivi digitalisé du chantier : photos, commentaires et étapes en temps réel.",
-        "amod": "AMOD : un professionnel indépendant conseille et intervient en cas de doute ou litige.",
-        "abuse": "Protection contre les abus : intervention possible en cas de devis manifestement excessif.",
-        "pv": "Procès-verbal numérique : aucun paiement libéré sans validation formelle."
+        "tracking": "Suivi digitalisé du chantier: photos, commentaires et étapes en temps réel.",
+        "amod": "AMOD: un professionnel indépendant conseille et intervient en cas de doute ou litige.",
+        "abuse": "Protection contre les abus: intervention possible en cas de devis manifestement excessif.",
+        "pv": "Procès-verbal numérique: aucun paiement libéré sans validation formelle."
       }
     },
     "q3": {
@@ -258,13 +353,13 @@
     "q5": {
       "title": "Quel est le taux de TVA appliqué en France pour les travaux de rénovation ?",
       "items": {
-        "rate55": "5,5 % : travaux d'amélioration énergétique (isolation, PAC, etc.).",
-        "rate10": "10 % : la plupart des autres travaux de rénovation.",
-        "rate20": "20 % : taux normal en dehors des cas éligibles."
+        "rate55": "5,5 %: travaux d'amélioration énergétique (isolation, PAC, etc.).",
+        "rate10": "10 %: la plupart des autres travaux de rénovation.",
+        "rate20": "20 %: taux normal en dehors des cas éligibles."
       },
       "note": "Les taux réduits s'appliquent aux logements achevés depuis plus de 2 ans et peuvent couvrir main-d'œuvre et fournitures si fournies par le professionnel.",
       "advice": "Il est souvent plus avantageux de confier fourniture et pose à l'artisan (sinon le matériel acheté par vous-même est à 20 %).",
-      "source": "Source : Ministère de l'Économie (TVA à taux réduit)."
+      "source": "Source: Ministère de l'Économie (TVA à taux réduit)."
     },
     "q6": {
       "title": "Quelles sont les consignes / obligations pour les prestataires ?",

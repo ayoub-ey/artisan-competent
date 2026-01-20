@@ -82,7 +82,7 @@ export class RegisterIndividual {
   }
 
   removeId() {
-    const ok = confirm('Supprimer la carte d’identité ?');
+    const ok = confirm('Supprimer la carte d\'identité ?');
     if (ok) {
       this.idPreview.set(null);
       this.idName.set(null);

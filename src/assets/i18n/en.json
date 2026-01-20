@@ -62,6 +62,101 @@
     "body5": "Protection against scams and abuse",
     "body6": "Supervised professionals and individuals"
   },
+  "home.steps": {
+    "title": "Steps to use Artisan-Compétent",
+    "items1": {
+      "title": "Explore the platform",
+      "p1": "The client discovers Artisan-Compétent, its guarantees, how it works and the available trades, exclusively in construction."
+    },
+    "items2": {
+      "title": "Secure sign-up",
+      "p1": "The client creates an account in minutes:",
+      "li1": "individual or business,",
+      "li2": "basic information,",
+      "li3": "instant access to their personal dashboard.",
+      "note": "No commitment at this stage."
+    },
+    "items3": {
+      "title": "Create a work request",
+      "p1": "From the dashboard, the client:",
+      "li1": "selects the trade (plumber, electrician, mason, locksmith, etc.),",
+      "li2": "defines the geographic area,",
+      "li3": "explains the need via:",
+      "li3a": "a video (recommended),",
+      "li3b": "photos,",
+      "li3c": "or a descriptive text.",
+      "note": "This step only takes a few seconds."
+    },
+    "items4": {
+      "title": "Automatic request broadcast",
+      "p1": "The request is automatically sent:",
+      "li1": "to qualified professionals,",
+      "li2": "and/or competent individuals,",
+      "li3": "matching the defined criteria.",
+      "note": "All parties receive the request simultaneously, ensuring transparency and fair competition."
+    },
+    "items5": {
+      "title": "Receive and compare quotes",
+      "p1": "Interested providers submit their quotes. The client can:",
+      "li1": "compare offers,",
+      "li2": "ask questions,",
+      "li3": "review profiles,",
+      "li4": "verify insurances (for professionals).",
+      "note": "The client remains free to choose."
+    },
+    "items6": {
+      "title": "Quote signature",
+      "p1": "Once a quote is selected:",
+      "li1": "it is signed directly on the platform,",
+      "li2": "conditions are finalized,",
+      "li3": "the work can start."
+    },
+    "items7": {
+      "title": "Secure and escrowed payment",
+      "p1": "The client pays via Artisan-Compétent:",
+      "li1": "Up to €5,000: 100% of the amount is held in escrow.",
+      "li2": "Above €5,000: only labor is held (except manufacturer artisans).",
+      "note": "Funds are never released before final validation."
+    },
+    "items8": {
+      "title": "Automatic AMOD assignment",
+      "p1": "After payment:",
+      "li1": "an AMOD (Digital Assistant to the Client) is automatically assigned,",
+      "li2": "independent professional with at least 3 years' experience,",
+      "li3": "they monitor the project remotely and advise the client if needed."
+    },
+    "items9": {
+      "title": "Work start and tracking",
+      "p1": "Throughout the work:",
+      "li1": "the provider posts regular photos and comments,",
+      "li2": "the client tracks progress from the dashboard,",
+      "li3": "each step is logged and documented.",
+      "note": "The client stays in control and validates key milestones."
+    },
+    "items10": {
+      "title": "Work acceptance",
+      "p1": "At the end of the work:",
+      "p2": "a digital acceptance report is generated; the client can:",
+      "li1": "accept the work,",
+      "li2": "or raise reservations.",
+      "note": "ithout a signed report, no payment is released."
+    },
+    "items11": {
+      "title": "Funds release",
+      "p1": "Once the report is validated:",
+      "li1": "escrowed funds are released,",
+      "li2": "payment is transferred to the provider within 72 hours.",
+      "note": "In case of reservation or confirmed defect, the platform adjusts or refunds the relevant part."
+    },
+    "items12": {
+      "title": "Review and project closure",
+      "p1": "The client leaves a review:",
+      "li1": "transparent,",
+      "li2": "constructive,",
+      "li3": "useful to the community.",
+      "note": "The project is officially closed."
+    }
+  },
   "common": {
     "delete": "Delete",
     "home": "Home"
@@ -109,8 +204,8 @@
       "drainUnblocker": {
         "name": "Drain Unblocker",
         "description": {
-          "p1": "When a pipe is clogged, it’s essential to call a competent unblocker who can quickly identify the cause and propose an appropriate solution.",
-          "p2": "With know-how and professional tools, a competent unblocker ensures effective results while preserving your installations. Whether it’s a blocked sink, clogged toilets or an overloaded pipe, you get reliable and lasting intervention.",
+          "p1": "When a pipe is clogged, it's essential to call a competent unblocker who can quickly identify the cause and propose an appropriate solution.",
+          "p2": "With know-how and professional tools, a competent unblocker ensures effective results while preserving your installations. Whether it's a blocked sink, clogged toilets or an overloaded pipe, you get reliable and lasting intervention.",
           "p3": "No more scams — with our escrow payment system, you take no financial risk!"
         }
       },
@@ -118,23 +213,23 @@
         "name": "Heating Technician",
         "description": {
           "p1": "Calling on a competent heating technician is essential to ensure proper operation and durability of your heating installations.",
-          "p2": "Whether installing a boiler, regular maintenance or urgent repair, a competent technician provides fast, efficient, standards‑compliant service. With their expertise, you enjoy optimal comfort and long‑term energy savings.",
+          "p2": "Whether installing a boiler, regular maintenance or urgent repair, a competent technician provides fast, efficient, standards-compliant service. With their expertise, you enjoy optimal comfort and long-term energy savings.",
           "p3": "No more scams — with our escrow payment system, you take no financial risk!"
         }
       },
       "hvacFridgeInstaller": {
         "name": "HVAC installer/repairer & refrigeration technician",
         "description": {
-          "p1": "Installing and maintaining air‑conditioning or refrigeration systems requires the expertise of a competent cooling technician. This professional masters safety standards and guarantees precise interventions, whether commissioning, preventive maintenance or urgent repair.",
-          "p2": "By choosing a competent cooling technician, you ensure your equipment’s performance and durability, while benefiting from optimal thermal comfort and energy savings.",
+          "p1": "Installing and maintaining air-conditioning or refrigeration systems requires the expertise of a competent cooling technician. This professional masters safety standards and guarantees precise interventions, whether commissioning, preventive maintenance or urgent repair.",
+          "p2": "By choosing a competent cooling technician, you ensure your equipment's performance and durability, while benefiting from optimal thermal comfort and energy savings.",
           "p3": "No more scams — with our escrow payment system, you take no financial risk!"
         }
       },
       "carpenterGlazier": {
         "name": "Carpenter & Glazier (blinds, windows, doors, etc.)",
         "description": {
-          "p1": "Carpentry and glazing require precision, technical skills and craftsmanship. Calling on a competent carpenter‑glazier means quality support, whether installing windows, repairing broken glass, building custom doors or interior fittings.",
-          "p2": "Thanks to their expertise, a competent carpenter‑glazier delivers flawless finishes, optimal insulation and long‑lasting results. Whether you’re an individual or a business, you gain safety, comfort and aesthetics.",
+          "p1": "Carpentry and glazing require precision, technical skills and craftsmanship. Calling on a competent carpenter-glazier means quality support, whether installing windows, repairing broken glass, building custom doors or interior fittings.",
+          "p2": "Thanks to their expertise, a competent carpenter-glazier delivers flawless finishes, optimal insulation and long-lasting results. Whether you're an individual or a business, you gain safety, comfort and aesthetics.",
           "p3": "No more scams — with our escrow payment system, you take no financial risk!"
         }
       },
@@ -197,7 +292,7 @@
     }
   },
   "faq": {
-    "title": "Skilled craftsman : how does it work ?",
+    "title": "Skilled craftsman: how does it work ?",
     "q1": {
       "title": "How to find a competent craftsman on Artisan-Compétent?",
       "p1": "Finding a service provider on Artisan-Compétent is simple, fast and fully digital.",
@@ -248,7 +343,7 @@
         "rate20": "20%: standard rate outside eligible cases."
       },
       "note": "Reduced rates apply to dwellings built over 2 years ago and may cover labor and supplies if provided by the professional.",
-      "advice": "It’s often better to let the professional supply and install; self-purchased materials are at 20%.",
+      "advice": "It's often better to let the professional supply and install; self-purchased materials are at 20%.",
       "source": "Source: Ministry of Economy (Reduced VAT)."
     },
     "q6": {
